@@ -1,13 +1,13 @@
-name: 'Hello World'
-description: 'Greet someone and record the time'
+name: 'Area of a Square'
+description: 'Calculate the Area of a Square'
 inputs:
-  who-to-greet:  
-    description: 'Who to greet'
+  side:
+    description: 'side'
     required: true
-    default: 'World'
+    default: 10
 outputs:
-  time:
-    description: 'The time we greeted you'
+  area:
+    description: 'the area of the triangle'
 runs:
   using: 'node12'
   main: 'index.js'
